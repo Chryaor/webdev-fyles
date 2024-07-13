@@ -1,0 +1,426 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+p {
+    width: 584px;
+    height: 83px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+    word-wrap: break-word;
+    padding-top: 40px;
+    display: table-cell;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font: normal normal 300 60px/65px Poppins;
+}
+
+h2 {
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.h2-center {
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 25px;
+}
+
+.h4-pop {
+    text-align: left;
+    font: normal normal bold 20px/80px Poppins;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.heading-1 {
+    width: 614px;
+    height: 140px;
+    text-align: left;
+    /* justify-content: center; */
+    font: normal normal bold 60px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+.title {
+    text-align: left;
+    /* font: normal normal 600 30px/110px Cormorant SC; */
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.title-center {
+    text-align: center;
+    /* font: normal normal 600 30px/110px Cormorant SC; */
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.img-hero {
+    width: 374px;
+    height: auto;
+}
+
+.msg-btn {
+    padding: 10px 35px;
+    color: #FAFAFA;
+    cursor: pointer;
+    /* border: 1px solid; */
+    background: #FF3147;
+    border: none;
+}
+
+.send-btn {
+    width: 100%;
+    background-color: #FF3147;
+    /* Red color */
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    /* Bootstrap default rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.send-btn:hover {
+    background-color: #e02b3a;
+    /* Darker red on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#contactUsModal .modal-header {
+    border: none;
+}
+
+#contactUsModal .modal-dialog {
+    max-width: 33%;
+    /* Adjust this percentage or use px, em, etc. */
+    max-height: 30%;
+}
+
+#contactUsModal .modal-body {
+    padding: 30px;
+    /* Adjust this value to increase/decrease padding */
+}
+
+.form-floating {
+    margin-left: 10px;
+}
+
+.whoweare {
+    display: flex;
+
+    padding: 100px;
+    align-items: center;
+}
+
+.content {
+    padding-right: 80px;
+}
+
+.content-2 h2 {
+    padding-top: 20px;
+    padding-right: 80px;
+    font: normal normal bold 45px/65px Cormorant SC;
+}
+
+.content-2 {
+
+    display: flex;
+}
+
+.whatwedo {
+    background-color: #FAFAFA;
+    padding: 100px 100px 100px 100px;
+}
+
+.whatwedo .container {
+    padding-top: 100px;
+}
+
+.card-caption {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.7);
+    /* Red background with opacity */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-item .card-img-top {
+    display: block;
+    width: 100%;
+    height: 526px
+}
+
+.card-caption h2 {
+    padding: 10px;
+}
+
+.card-caption h2 {
+    padding-bottom: 10px;
+}
+
+.card-caption button {
+    border-radius: none !important;
+    width: 185px;
+    height: 50px;
+    font-family: Poppins;
+    font-weight: 400;
+
+}
+
+.arrow {
+    margin-left: 15px;
+}
+
+.card-item:hover .card-caption {
+    display: flex;
+    opacity: 0.999;
+}
+
+.card-indicator {
+    position: absolute;
+    display: flex;
+    padding: 10px;
+}
+
+.card-indicator img {
+    padding: 10px 0px 10px 10px;
+}
+
+.whychooseus {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding: 100px 100px 0px 100px;
+}
+
+.container-6 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 100px;
+}
+
+.container-6 .item {
+    text-align: left;
+    width: 250px;
+}
+
+.container-6 .item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.p-c6 {
+    align-items: left;
+    margin-left: 450px;
+    word-wrap: break-word;
+}
+
+.whywearebest {
+    align-items: center;
+    padding: 50px 100px 100px 100px;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-5 img {
+    width: 770px;
+    height: 567px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container-5 .card-items .card {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 189px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.container-5 .card-items .card .card-content-2 {
+    padding: 20px;
+
+}
+
+.container-5 .card-items .card.selected {
+    color: white !important;
+    background: #FF3147;
+}
+
+.container-5 .card-items .card:hover {
+    transform: scale(1.05);
+}
+
+.p-c5 {
+    padding-top: 20px;
+}
+
+.ourcompanygrowth {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FAFAFA;
+}
+
+.row {
+
+    flex-wrap: nowrap !important;
+}
+
+.cards-container {
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+
+}
+
+.cards-container .card {
+
+    width: 270px;
+    height: 233px;
+    background: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0%;
+    align-items: center;
+    text-align: center;
+    border: none;
+
+}
+
+.cards-container .card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 6px 20px #672C2C1F;
+    ;
+}
+
+.cards-container .card .card-icon {
+    width: 54px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.cards-container .card h3 {
+    margin: 10px 0;
+}
+
+.cards-container .card p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.clientsfeedback {
+    padding: 100px;
+    text-align: center;
+}
+
+.container-4 {
+    text-align: center;
+    background-image: url("assets/images/Quotemarks-left.svg");
+    background-repeat: no-repeat;
+    background-position-y: 55%;
+    background-position-x: 12%;
+}
+
+.p-center {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 83px;
+    font: normal normal normal 20px/34px Poppins;
+    
+    
+}
+
+.client {
+    display: flex;
+    padding-top: 30px;
+}
+
+.client1 {
+    padding-top: 20px;
+    padding-left: 138px;
+    padding-right: 5px;
+    font: normal normal bold 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #FF3147
+}
+
+.p-thin {
+    padding-top: 20px;
+    font: normal normal 300 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #808080;
+}
+
+footer {
+    background: url('assets/images/NoPath\ -\ Copy.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.81;
+    width: 100%;
+    align-items: center;
+    padding: 100px;
+}
+
+.company {
+    width: 1000px;
+    height: auto;
+}
