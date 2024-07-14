@@ -117,7 +117,11 @@ h2 {
     /* Darker red on hover */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
-
+#contactUsModalLabel{
+    font-family: Poppins;
+    font-weight: 700;
+    padding: 10px 0px 10px 15px;
+}
 #contactUsModal .modal-header {
     border: none;
 }
@@ -132,6 +136,7 @@ h2 {
     padding: 30px;
     /* Adjust this value to increase/decrease padding */
 }
+
 
 .form-floating {
     margin-left: 5px;
@@ -316,21 +321,23 @@ input[type="checkbox"]:checked {
     flex-direction: column;
     width: 370px;
     height: 189px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+    border:none;
     border-radius: 0px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     cursor: pointer;
+    background-color: #F6F6F6;
 }
 
 .container-5 .card-items .card .card-content-2 {
     padding: 20px;
+  
 
 }
-
 .container-5 .card-items .card.selected {
-    color: white !important;
+    color: white !important;;
     background: #FF3147;
 }
 
@@ -349,7 +356,6 @@ input[type="checkbox"]:checked {
 }
 
 .row {
-
     flex-wrap: nowrap !important;
 }
 
@@ -407,7 +413,7 @@ input[type="checkbox"]:checked {
     background-image: url("assets/images/Quotemarks-left.svg");
     background-repeat: no-repeat;
     background-position-y: 57%;
-    background-position-x: 16%;
+    background-position-x: 12%;
 }
 
 .p-center {
@@ -427,7 +433,7 @@ input[type="checkbox"]:checked {
 
 .client1 {
     padding-top: 20px;
-    padding-left: 200px;
+    padding-left: 140px;
     padding-right: 5px;
     font: normal normal bold 20px/34px Poppins;
     letter-spacing: 0px;
@@ -439,7 +445,7 @@ input[type="checkbox"]:checked {
     font: normal normal 300 20px/34px Poppins;
     letter-spacing: 0px;
     color: #808080;
-    margin-left: -220px;
+    margin-left: -280px;
 }
 
 footer {
