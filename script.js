@@ -29,10 +29,11 @@ function changeImage(cardElement, imageUrl) {
 function clearForm() {
     var form = document.getElementById('formId');
     form.reset();
-    
-    var myModal = new bootstrap.Modal(document.getElementById('contactUsModal'));
-    myModal.hide();
+}
 
+function hide(){
+    $('#contactUsModal').modal('hide');
+    setTimeout(hide,3000);
 }
 
 document.addEventListener("DOMContentLoaded", function() {
